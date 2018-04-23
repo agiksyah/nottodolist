@@ -1,12 +1,87 @@
 body {
     position: relative;
     overflow-x: hidden;
+    background: linear-gradient(to bottom right, #91B496, #85AF4B);
 }
 body,
 html { height: 100%;}
 .nav .open > a, 
 .nav .open > a:hover, 
 .nav .open > a:focus {background-color: transparent;}
+
+nav#sidebar-wrapper {
+  background-color: #272822;
+}
+
+.hamb-top, .hamb-middle, .hamb-bottom {
+  background-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+h1, h3, h4 {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+a.nav-link.ng-binding {
+  border-radius: 0px;
+  background-color: transparent;
+  color: white !important;
+}
+
+a.nav-link.ng-binding:hover {
+  background-color: #91B496;
+}
+
+.active a.nav-link.ng-binding {
+  border-radius: 0px;
+  background-color: #85AF4B !important;
+}
+
+p, .nama {
+  color: #ffffff;
+}
+
+.task-crossout {
+  color: white;
+}
+
+.input-lg {
+  background: transparent;
+    border: none;
+}
+
+.input-lg[placeholder] {
+  color: white !important;
+}
+
+.form-control::-webkit-input-placeholder { color: rgba(255,255,255,0.35); }
+.form-control:-moz-placeholder { color: rgb(255,255,255); }
+.form-control::-moz-placeholder { color: rgb(255,255,255) }
+.form-control:-ms-input-placeholder { color: rgb(255,255,255) }
+
+img {
+  width: 52px;
+  height: 52px;
+}
+
+.imgapp img {
+  width: 200px;
+  height: 200px;
+}
+
+.imgme img {
+  width: 125px;
+  height: 133px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /*-------------------------------*/
 /*           Wrappers            */
@@ -213,6 +288,7 @@ html { height: 100%;}
   left: 0;
   height: 4px;
   width: 100%;
+  color: #ffffff;
 }
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,

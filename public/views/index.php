@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Laravel/Angular todo app</title>
+	<title>Not to-do</title>
+	<link rel="icon" type="image/png" href="content/images/nope.png">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
 	<script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
@@ -37,14 +38,17 @@
 	        <ul class="nav sidebar-nav">
 	            <li class="sidebar-brand">
 	                <a href="#/">
-	                   To-do app
+	                   Not to-do app
 	                </a>
 	            </li>
 	            <li>
-	                <a href="#/">Your todo lists</a>
+	                <a href="#/">Your not todo lists</a>
 	            </li>
 	            <li>
-	                <a href="#about">About</a>
+	                <a href="#about">About this app</a>
+	            </li>
+	            <li>
+	            	<a href="#me">Me</a>
 	            </li>
 	        </ul>
 	    </nav>

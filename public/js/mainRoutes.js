@@ -11,6 +11,8 @@ app.config(function ($routeProvider) {
 		templateUrl: '../views/main.php'
 	}).when('/about', {
 		templateUrl: '../views/home/about.html'
+	}).when('/me', {
+		templateUrl: '../views/home/me.html'
 	}).otherwise({
 		redirectTo: '/'
 	});
